@@ -2,7 +2,7 @@ import "./index.css";
 import { Toaster } from "sonner";
 import { Login } from "./features/Login";
 import { Counter } from "./features/Counter";
-import { UsersTable } from "./features/Table";
+import { CarsTable } from "./features/Table";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       </div>
       <div className="p-10 bg-gray-50 min-h-screen flex justify-center">
         <div className="w-full max-w-5xl">
-          <UsersTable />
+          <CarsTable />
         </div>
       </div>
     </div>
